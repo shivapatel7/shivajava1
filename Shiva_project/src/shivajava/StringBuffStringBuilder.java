@@ -5,6 +5,7 @@ public class StringBuffStringBuilder {
         StringBuffer k = new StringBuffer("hello ");
         System.out.println(k.capacity());
         k.append("shiva");
+        k.setLength(30);
         System.out.println(k);
     }
 }
